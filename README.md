@@ -1,2 +1,2 @@
 # Quantum-Computing
-Quantum Computing - Codes and Exercises from Workshop by QTurkey 
+Quantum Computing - Codes and Exercises from beforeWorkshop by QTurkey 
