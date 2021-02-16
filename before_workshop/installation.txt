@@ -1,0 +1,40 @@
+Local Installation
+
+To use this repository locally, you need a python 3 environment and a few other dependencies.
+
+- jupyter
+- numpy
+- matplotlib
+- qiskit
+- qiskit-terra[visualization]
+
+Since we use Anaconda distribution to manage python envirionments and packages, we will make such an installation. 
+
+1-First install python 3 version of either [Anaconda](https://www.anaconda.com/distribution/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html). 
+
+2-Open the conda command line. Inside the folder before_workshop, use the following command to setup the environment. Depending on your internet connection this may take some time.
+
+```
+conda env create -f setup/environment.yml
+```
+
+3-Now that everything is installed, you can activate the conda environment and start jupyter server using the following commands inside the folder before_workshop. A new browser windows should launch automatically. 
+
+```
+conda activate bronze-workshop
+jupyter lab index_bronze.ipynb
+```
+
+If you have problems, then try another alternative:
+
+2-Open the conda command line. Use the following command to install qiskit.
+
+```
+pip install qiskit==0.13.0
+``
+`
+3-Now that everything is installed, you can activate the conda environment and start jupyter server using the following commands inside the folder before_workshop. A new browser windows should launch automatically. 
+
+```
+jupyter lab index_bronze.ipynb
+```
